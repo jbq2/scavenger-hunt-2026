@@ -18,7 +18,7 @@ function App() {
           currClue < 4
           ? <h1>Welcome to a Scavenger Hunt!</h1>
           : <h1><a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            href="https://youtube.com/shorts/d-MkNJkbTaw?feature=share"
             target="_blank"
             rel="noopener noreferrer"
             style={{
