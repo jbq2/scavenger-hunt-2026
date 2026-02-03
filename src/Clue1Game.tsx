@@ -9,8 +9,8 @@ export default function Clue1Game() {
   const animationRef = useRef<number | null>(null);
 
   const speed = 1.5; // adjust for difficulty
-  const targetStart = 47.5;
-  const targetEnd = 52.5;
+  const targetStart = 48;
+  const targetEnd = 52;
 
   useEffect(() => {
     if (!isRunning) return;
