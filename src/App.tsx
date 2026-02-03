@@ -27,11 +27,13 @@ function App() {
             }}
           >Welcome to a Scavenger Hunt!</a></h1>
         }
-        <p>This is a fun scavenger hunt that will reveal a fun surprise when you
-          figure out all the clues. Each clue is hidden behind some sort of code.
-          Enter the correct code, and the clue will be revealed, which will help
-          in figuring out the code for the next clue.
-        </p>
+        <div style={{ marginLeft: "50px", marginRight: "50px"}}>
+          <p>This is a fun scavenger hunt that will reveal a fun surprise when you
+            figure out all the clues. Each clue is hidden behind some sort of code.
+            Enter the correct code, and the clue will be revealed, which will help
+            in figuring out the code for the next clue.
+          </p>
+        </div>
         {
           !started && (
             <>
@@ -83,15 +85,15 @@ function App() {
           <>
             <h2>Clue 3: Solve the riddle and find the code!</h2>
             <div>
-              <p>In a corner I stand, sleek and bright,</p>
-              <p>My belly is blue, my heart warms with light.</p>
-              <p>I sip from pods, but never from lips,</p>
-              <p>And brew your morning with magical sips.</p>
+              <p>Where the fridge light flickers late at night,</p>
+              <p>I wait in glass, cool and tight.</p>
+              <p>A metal crown you have to twist</p>
+              <p>Releases a sharp and sour mist.</p>
 
-              <p>I hiss and I gurgle, a steamy ballet,</p>
-              <p>Transforming cold water into liquid café.</p>
-              <p>I wait on the counter, quiet and near,</p>
-              <p>Guess who I am — the barista here?</p>
+              <p>Once green and growing on a vine,</p>
+              <p>Now resting in a briny brine.</p>
+              <p>I sit with sauces on the shelf.</p>
+              <p>Open me and taste for yourself.</p>
               <input
                 type="text"
                 placeholder="Enter code"

@@ -13,8 +13,8 @@ export default function Clue2Game() {
                 <h2>Clue 2: Solve the puzzle!</h2>
                 <JigsawPuzzle
                     imageSrc={clueImage}
-                    rows={3}
-                    columns={3}
+                    rows={4}
+                    columns={4}
                     onSolved={() => setSolved(true)}
                 />
                 {solved && (<><p>The code is: {CLUE_2_CODE}</p></>)}
